@@ -85,5 +85,17 @@
 		</plugins>
 	</build>
 	
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>47b977a10931-releases</name>
+        <url>http://artifactory.hansonchiudevenv.com:8081/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>47b977a10931-snapshots</name>
+        <url>http://artifactory.hansonchiudevenv.com:8081/artifactory/libs-release-local</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
